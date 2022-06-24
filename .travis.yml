@@ -1,6 +1,6 @@
 languaje: python
 python:
-- "3.10"
+- "3.6"
 
 # comando para correr las pruebas
 script:
