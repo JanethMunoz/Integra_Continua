@@ -2,8 +2,6 @@ languaje: python
 python:
 - "3.10"
 
-#comando para instalación de dependencias
-install:
- - pip install -r requirements.txt
- #comando para correr pruebas
- - proyecto_Calc
+# comando para correr las pruebas
+script:
+  - python -m unittest discover -s tests
