@@ -1,0 +1,9 @@
+languaje: python
+python:
+- "3.10"
+
+#comando para instalación de dependencias
+install:
+ - pip install -r requirements.txt
+ #comando para correr pruebas
+ - proyecto_Calc
